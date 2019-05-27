@@ -1,9 +1,9 @@
-package com.thoughtworks.game.house.slot.hotel;
+package com.playground.game.house.slot.hotel;
 
-import com.thoughtworks.game.house.account.Player;
-import com.thoughtworks.game.house.bank.HouseBank;
-import com.thoughtworks.game.house.bank.HouseBank.HouseBankHelper;
-import com.thoughtworks.game.house.slot.ISlot;
+import com.playground.game.house.bank.HouseBank;
+import com.playground.game.house.bank.HouseBank.HouseBankHelper;
+import com.playground.game.house.slot.ISlot;
+import com.playground.game.house.account.Player;
 
 public class HotelSlot implements ISlot {
 

@@ -1,4 +1,4 @@
-package com.thoughtworks.game.house.account;
+package com.playground.game.house.account;
 
 import java.util.Objects;
 

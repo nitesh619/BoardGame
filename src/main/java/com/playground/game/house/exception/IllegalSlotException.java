@@ -1,4 +1,4 @@
-package com.thoughtworks.game.house.exception;
+package com.playground.game.house.exception;
 
 public class IllegalSlotException extends RuntimeException {
 

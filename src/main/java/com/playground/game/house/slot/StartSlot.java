@@ -1,7 +1,7 @@
-package com.thoughtworks.game.house.slot;
+package com.playground.game.house.slot;
 
-import com.thoughtworks.game.house.account.Player;
-import com.thoughtworks.game.house.bank.HouseBank;
+import com.playground.game.house.bank.HouseBank;
+import com.playground.game.house.account.Player;
 
 public class StartSlot implements ISlot {
 

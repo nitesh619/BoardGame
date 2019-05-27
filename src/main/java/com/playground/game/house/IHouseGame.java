@@ -1,7 +1,7 @@
-package com.thoughtworks.game.house;
+package com.playground.game.house;
 
-import com.thoughtworks.game.house.account.Player;
-import com.thoughtworks.game.house.exception.OutOfBoardException;
+import com.playground.game.house.account.Player;
+import com.playground.game.house.exception.OutOfBoardException;
 
 public interface IHouseGame {
 

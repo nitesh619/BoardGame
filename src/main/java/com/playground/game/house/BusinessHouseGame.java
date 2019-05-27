@@ -1,9 +1,9 @@
-package com.thoughtworks.game.house;
+package com.playground.game.house;
 
-import com.thoughtworks.game.house.account.Player;
-import com.thoughtworks.game.house.bank.HouseBank;
-import com.thoughtworks.game.house.exception.OutOfBoardException;
-import com.thoughtworks.game.house.slot.ISlot;
+import com.playground.game.house.bank.HouseBank;
+import com.playground.game.house.slot.ISlot;
+import com.playground.game.house.account.Player;
+import com.playground.game.house.exception.OutOfBoardException;
 import java.util.List;
 import java.util.Optional;
 

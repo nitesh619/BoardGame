@@ -1,7 +1,7 @@
-package com.thoughtworks.game.house.bank;
+package com.playground.game.house.bank;
 
-import com.thoughtworks.game.house.account.Player;
-import com.thoughtworks.game.house.exception.AccountLimitException;
+import com.playground.game.house.account.Player;
+import com.playground.game.house.exception.AccountLimitException;
 import java.util.HashMap;
 
 

@@ -1,13 +1,13 @@
-package com.thoughtworks.game.house;
+package com.playground.game.house;
 
-import com.thoughtworks.game.house.account.Player;
-import com.thoughtworks.game.house.exception.IllegalSlotException;
-import com.thoughtworks.game.house.slot.EmptySlot;
-import com.thoughtworks.game.house.slot.ISlot;
-import com.thoughtworks.game.house.slot.JailSlot;
-import com.thoughtworks.game.house.slot.LotterySlot;
-import com.thoughtworks.game.house.slot.StartSlot;
-import com.thoughtworks.game.house.slot.hotel.HotelSlot;
+import com.playground.game.house.slot.ISlot;
+import com.playground.game.house.slot.StartSlot;
+import com.playground.game.house.account.Player;
+import com.playground.game.house.exception.IllegalSlotException;
+import com.playground.game.house.slot.EmptySlot;
+import com.playground.game.house.slot.JailSlot;
+import com.playground.game.house.slot.LotterySlot;
+import com.playground.game.house.slot.hotel.HotelSlot;
 import java.util.ArrayList;
 import java.util.List;
 

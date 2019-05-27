@@ -1,4 +1,4 @@
-package com.thoughtworks.game.house.slot.hotel;
+package com.playground.game.house.slot.hotel;
 
 import java.util.Collections;
 import java.util.HashMap;

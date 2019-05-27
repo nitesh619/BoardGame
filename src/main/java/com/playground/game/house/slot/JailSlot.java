@@ -1,17 +1,16 @@
-package com.thoughtworks.game.house.slot;
+package com.playground.game.house.slot;
 
-import com.thoughtworks.game.house.account.Player;
-import com.thoughtworks.game.house.bank.HouseBank;
-import com.thoughtworks.game.house.bank.HouseBank.HouseBankHelper;
+import com.playground.game.house.account.Player;
+import com.playground.game.house.bank.HouseBank;
+import com.playground.game.house.bank.HouseBank.HouseBankHelper;
 
-public class LotterySlot implements ISlot {
+public class JailSlot implements ISlot {
 
-    public static final int LOTTERY_PRIZE = 200;
+    public static final int JAIL_PANELTY = 100;
     private final int slotPos;
     private final int slotCost;
 
-
-    public LotterySlot(final int slotPos, final int slotCost) {
+    public JailSlot(final int slotPos, final int slotCost) {
         this.slotPos = slotPos;
         this.slotCost = slotCost;
     }
@@ -24,6 +23,7 @@ public class LotterySlot implements ISlot {
         return slotCost;
     }
 
+
     @Override
     public void triggerFeature(Player player) {
         HouseBank bank = HouseBankHelper.getBank();
@@ -32,7 +32,7 @@ public class LotterySlot implements ISlot {
 
     @Override
     public String toString() {
-        return "LotterySlot{" +
+        return "JailSlot{" +
                 ", slotPos=" + slotPos +
                 ", slotCost=" + slotCost +
                 '}';
